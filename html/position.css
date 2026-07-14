@@ -1,0 +1,44 @@
+.static{
+    /* height:100px;
+    width:100px;
+    background-color: aqua;
+    position:static; */
+}
+
+.relative{
+    /* height:100px;
+    width:100px;
+    background-color: rgb(207, 140, 24); */
+    /* position:relative;
+    left:50px;
+    bottom: 30px; */
+}
+
+.absolute{
+    /* height:100px;
+    width:100px;
+    background-color: rgb(212, 71, 36); */
+    /* position:absolute;
+    bottom:5px; */
+}
+
+.fixed{
+    /* height:100px;
+    width:100px;
+    background-color: rgb(174, 233, 49);
+    position:fixed;
+    top:10px;
+    border-radius: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.sticky{
+    /* height:100px;
+    width:100px;
+    background-color: rgb(33, 106, 208);
+    position:sticky;
+    left:70%;
+    bottom:50px; */
+}

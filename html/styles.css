@@ -1,0 +1,31 @@
+*{
+    background-color:  black;
+    font-family: sans-serif;
+    }
+h1{
+    color:aqua;
+    text-align: center;
+    border:2px solid skyblue;
+    border-radius:50px;
+    background-color: blue;
+    padding:10px 10px 10px 10px;
+    margin:10px;
+}
+
+img{
+    height:20vh;
+    width:50vw;
+    border:5px solid skyblue;
+    border-radius:5%;
+    align-items: center;
+}
+
+.color{
+    text-align: center;
+    color:antiquewhite;
+}
+
+p2,p3{
+    color:aqua
+}
+/* list of Inline elements */

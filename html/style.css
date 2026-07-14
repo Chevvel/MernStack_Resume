@@ -1,0 +1,49 @@
+/* .Container1{
+    height:100vh;
+    width:100vw;
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#box1{
+    color:white;
+    height:100px;
+    width:100px;
+    display:flex;
+    border:1px solid black;
+    border-radius: 50px;
+    align-items: center;
+    box-shadow: 0 0 15px white;
+    justify-content: center;
+    padding: 10px;
+} */
+
+.Container2{
+    height:100vh;
+    width:100vw;
+    background-color: black;
+    display:grid;
+    grid-template-columns: 1fr 50% 300px;
+    grid-template-rows: 1fr 3fr 100px;
+}
+
+.box2{
+    color:white;
+    height:100px;
+    width:300px;
+    display:flex;
+    text-align: center;
+    border:1px solid black;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 0 15px white;
+    justify-content: center;  
+}
+
+#d1{
+   grid-column-start: 1;
+   grid-column-end: 2;
+}

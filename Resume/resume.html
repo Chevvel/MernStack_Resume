@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+      body {
+        display: flex;
+
+        justify-content: center;
+      }
+
+      main {
+        height: 100vh;
+        width: 50vw;
+      }
+
+      .main {
+        height: 90vh;
+        border: 2px solid black;
+
+        display: grid;
+
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: 40% 60%;
+        grid-template-areas:
+          "conatiner1 container2"
+          "conatiner3 container4"
+          "conatiner5 container6"
+          "conatiner7 container8";
+      }
+      header > img {
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        left: 40px;
+        top: 10px;
+        border-radius: 10;
+      }
+      .main > div {
+        border: 2px solid black;
+      }
+
+      .container1 {
+        grid-area: container1;
+      }
+      .container2 {
+        grid-area: container2;
+      }
+      .container3 {
+        grid-area: container3;
+      }
+      .container4 {
+        grid-area: container4;
+      }
+      .container5 {
+        grid-area: container5;
+      }
+      .container6 {
+        grid-area: container6;
+      }
+      .container7 {
+        grid-area: container7;
+      }
+      .container8 {
+        grid-area: container8;
+      }
+
+      @media (max-width: 899px) {
+        header > img {
+          display: none !important;
+        }
+
+        main > div {
+          height: fit-content;
+        }
+
+        main {
+          height: fit-content;
+        }
+      }
+      header {
+        height: 10vh;
+        border: 2px solid black;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      header > span {
+        display: block;
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <header>
+        <span class="chevvel"> CHEVVEL </span>
+        <span class="software">SOFTWARE ENGINEER</span>
+
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/007/296/447/non_2x/user-icon-in-flat-style-person-icon-client-symbol-vector.jpg"
+          alt="image not found"
+        />
+      </header>
+
+      <div class="main">
+        <div class="container 1"></div>
+        <div class="container 2"></div>
+        <div class="container 3"></div>
+        <div class="container 4"></div>
+        <div class="container 5"></div>
+        <div class="container 6"></div>
+        <div class="container 7"></div>
+        <div class="container 8"></div>
+      </div>
+    </main>
+  </body>
+</html>
